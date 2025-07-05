@@ -1,0 +1,8 @@
+
+# Créer le fichier .gitignore
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+echo .env.local >> .gitignore
+echo .next/ >> .gitignore
+echo dist/ >> .gitignore
+echo *.log >> .gitignore
